@@ -7,6 +7,14 @@
   display: none;
 }
 
+.second-text {
+  size: 20px;
+}
+
+.second-text1{
+  size:40px;
+}
+
 .second {
   background-image: url(./images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
