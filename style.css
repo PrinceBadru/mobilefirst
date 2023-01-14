@@ -452,6 +452,16 @@ textarea {
   justify-content: space-around;
 }
 
+.hamburger-left {
+  align-items: flex-end;
+  margin-left: 250px;
+}
+
+.navigation {
+  display: flex;
+  width: 100vw;
+}
+
 .display-centered .btn-secondary {
   border: 1px solid #36b37e;
   border-radius: 8px;
