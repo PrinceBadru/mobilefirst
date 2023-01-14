@@ -7,14 +7,6 @@
   display: none;
 }
 
-.btn:hover {
-  background-color: #36b37f;
-}
-
-.btn:active {
-  background-color: #008552;
-}
-
 .second-text {
   font-size: 20px;
 }
@@ -189,6 +181,14 @@
   transition: 0.8s;
 }
 
+.btn:hover {
+  background-color: #36b37f;
+}
+
+.btn:enabled {
+  background-color: #36b37f;
+}
+
 .language {
   list-style: none;
   border: 1px solid #ebf0ee;
@@ -276,7 +276,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .li-lang {
@@ -364,14 +364,6 @@ textarea {
   height: 50px;
   display: flex;
   justify-content: center;
-}
-
-.btn:hover {
-  background-color: #36b37f;
-}
-
-.btn:enabled {
-  background-color: #36b37f;
 }
 
 .bottom-line {
