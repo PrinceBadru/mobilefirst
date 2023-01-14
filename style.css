@@ -29,7 +29,7 @@
   font-size: 40px;
   color: #172b4d;
   padding: 10px 15px 15px 10px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .third {
@@ -154,7 +154,7 @@
 .recent {
   text-align: center;
   font-size: 50px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .image-placeholder {
@@ -182,7 +182,7 @@
   border: none;
   border-radius: 5px;
   transition: 0.8s;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .btn:hover {
@@ -200,7 +200,7 @@
   background-color: #ebf0ee;
   margin: 0 5px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
 }
 
@@ -213,7 +213,7 @@
   text-align: center;
   font-size: 25px;
   margin: 5px 10px;
-  font-family :'Inter' ;
+  font-family: 'Inter', sans-serif;
 }
 
 .butt {
@@ -239,7 +239,7 @@
   background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
   background-repeat: no-repeat;
   background-position: top right;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .butt2 {
@@ -263,7 +263,7 @@
   padding: 20px 1px;
   height: 250px;
   background-color: #e2e6ee;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .language-icon {
@@ -313,7 +313,7 @@
 }
 
 .touch {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: italic;
   font-size: 40px;
   text-align: center;
