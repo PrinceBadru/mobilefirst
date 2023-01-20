@@ -54,6 +54,27 @@
 
 .green {
   color: #36b37e;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .line {
@@ -389,6 +410,13 @@ textarea {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+.project {
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s, 3s, 5s;
+}
+
+
 
 .popup {
   position: fixed;
