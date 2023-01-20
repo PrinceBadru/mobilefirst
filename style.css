@@ -60,11 +60,6 @@
   animation-direction: alternate;
 }
 
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -418,11 +413,20 @@ textarea {
   background-color: #008552;
 }
 
+.contact-form {
+  width: 55%;
+}
+
 .back-image {
   height: 131px;
   background-image: url(./images/illustration-contact-form.png);
   background-repeat: no-repeat;
   background-position: right;
+  width: 100vw;
+}
+
+.placeholdermargin {
+  padding: 0.1px 16px;
 }
 
 .popup {
