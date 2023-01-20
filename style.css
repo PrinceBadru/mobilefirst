@@ -91,11 +91,12 @@
 }
 
 .contactmargin {
-  padding: 0px;
+  padding: 0.1px;
 }
 
 ul {
-  padding-left: 0px;
+  padding-left: 0.1px;
+  list-style: none;
 }
 
 .dash {
@@ -113,18 +114,6 @@ ul {
   margin-left: -8px;
   background-color: #e5e5e5;
   position: fixed;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 .mobile-menu {
@@ -376,10 +365,6 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-}
-
-ul {
-  list-style: none;
 }
 
 input {
