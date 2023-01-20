@@ -52,24 +52,13 @@
   gap: 20px;
 }
 
-.green {
-  color: #36b37e;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+.socials-list {
+  width: 30px;
+  height: 30px;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+.green {
+  color: #36b37e;
 }
 
 .line {
@@ -99,6 +88,14 @@
   z-index: 100;
   background-color: white;
   font-family: 'Inter', sans-serif;
+}
+
+.contactmargin {
+  padding: 0px;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 .dash {
@@ -422,11 +419,13 @@ textarea {
   background-image: url(./images/illustration-contact-form.png);
   background-repeat: no-repeat;
   background-position: right;
-  width: 96vw;
+  width: 100vw;
 }
 
 .placeholdermargin {
   padding: 0.1px 16px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .popup {
