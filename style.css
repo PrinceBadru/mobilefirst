@@ -123,11 +123,6 @@ p {
   position: fixed;
 }
 
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -183,6 +178,8 @@ p {
   align-items: center;
   gap: 16px;
   margin-bottom: 20px;
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s, 3s, 5s;
 }
 
 .image-placeholder img {
@@ -427,13 +424,6 @@ textarea {
   background-repeat: no-repeat;
   background-position: right;
 }
-
-.project {
-  transition-property: opacity, left, top, height;
-  transition-duration: 3s, 5s, 3s, 5s;
-}
-
-
 
 .popup {
   position: fixed;
