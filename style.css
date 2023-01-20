@@ -376,9 +376,10 @@ input {
 
 textarea {
   padding: 0%;
-  margin-bottom: 24px;
   width: 305px;
   height: 114px;
+  margin: 15px;
+  margin-bottom: 24px;
 }
 
 .button {
