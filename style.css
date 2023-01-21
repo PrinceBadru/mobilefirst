@@ -197,7 +197,6 @@ ul {
   font-size: 17px;
   border: none;
   border-radius: 5px;
-  transition: 0.8s;
   font-family: 'Inter', sans-serif;
 }
 
@@ -303,6 +302,8 @@ ul {
   flex-wrap: wrap;
   gap: 8px;
   padding-left: 0;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .li-lang {
@@ -566,13 +567,6 @@ textarea {
     background-color: transparent;
   }
 
-  p {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
   .first-img {
     display: none;
   }
@@ -737,7 +731,7 @@ textarea {
     padding: 20px 1px;
     height: 352px;
     width: 369px;
-    background-color: #e2e6ee;
+    background-color:  #ebf0ee;
     border-radius: 10px;
   }
 
@@ -847,10 +841,7 @@ textarea {
   }
 
   .btn:hover {
-    background-color: #fcc;
-    width: 200px;
-    height: 200px;
-    rotate: 180deg;
+    background-color: #36b37f;;
   }
 
   .btn:active {
