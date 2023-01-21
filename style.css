@@ -150,7 +150,7 @@ ul {
 .project {
   border: 1px solid #d0d9d4;
   margin: 0;
-  width: 100%;
+  width: 369px;
   padding: 0;
   border-radius: 8px;
   height: 474px;
@@ -274,11 +274,12 @@ ul {
 }
 
 .project2 {
-  border: 1px solid green;
+  border: 1px solid #c1c7d0;
   margin: 30px;
   padding: 20px 1px;
-  height: 250px;
-  background-color: #e2e6ee;
+  height: 352px;
+  width: 369px;
+  background-color: #ebf0ee;
   font-family: 'Inter', sans-serif;
 }
 
@@ -553,7 +554,7 @@ textarea {
   font-size: 22px;
 }
 
-@media (min-width: 678px) {
+@media (min-width: 768px) {
   .first {
     display: flex;
     justify-content: center;
@@ -646,7 +647,7 @@ textarea {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 8px;
   }
 
   .last {
@@ -689,9 +690,9 @@ textarea {
   }
 
   .project {
-    border: 1px solid green;
+    border: 1px solid #c1c7d0;
     margin: 0;
-    width: 327px;
+    width: 369px;
     padding: 0;
     border-radius: 8px;
     height: 474px;
@@ -731,11 +732,11 @@ textarea {
   }
 
   .project2 {
-    border: 1px solid green;
+    border: 1px solid #c1c7d0;
     margin: 30px;
     padding: 20px 1px;
-    width: 374px;
-    height: 350px;
+    height: 352px;
+    width: 369px;
     background-color: #e2e6ee;
     border-radius: 10px;
   }
@@ -795,7 +796,7 @@ textarea {
     color: #36b37e;
     font-size: 12px;
     font-family: 'Inter', sans-serif;
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
   .aboutme section {
@@ -859,9 +860,5 @@ textarea {
   .bottom-line {
     display: flex;
     color: #d0d9d4;
-  }
-
-  .resume-container {
-    display: none;
   }
 }
