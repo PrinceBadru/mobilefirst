@@ -405,10 +405,6 @@ textarea {
 
 .back-image {
   height: 131px;
-  background-image: url(./images/illustration-contact-form.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 100vw;
 }
 
 .placeholdermargin {
