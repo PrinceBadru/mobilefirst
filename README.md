@@ -78,7 +78,7 @@ the headline section (right after the header):
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]( https://princebadru.github.io/Mobile-First/)
+- [Live Demo Link]( https://princebadru.github.io/mobilefirst/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
