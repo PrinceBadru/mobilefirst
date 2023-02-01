@@ -77,6 +77,23 @@
   display: none;
 }
 
+.mobile-text {
+  margin-top: 30px;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.mobile-text1 {
+  margin-top: 40px;
+}
+
+.mobile-list {
+  margin-top: 50px;
+}
+
 .mobile-menu-section {
   top: 0;
   left: 0;
@@ -117,13 +134,24 @@ ul {
 }
 
 .mobile-menu {
-  max-width: 85%;
-  margin: 50px auto;
-  color: white;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-radius: 15px;
+  font-weight: 600;
+  display: none;
 }
 
 .close-button {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 38px;
+  margin-top: 62px;
 }
 
 .mobile-menu li {
@@ -239,6 +267,10 @@ ul {
 .dis {
   display: flex;
   justify-content: center;
+}
+
+#about {
+  margin-top: 30px;
 }
 
 .about {
@@ -405,6 +437,7 @@ textarea {
 
 .back-image {
   height: 131px;
+  width: 100vw;
 }
 
 .placeholdermargin {
@@ -643,7 +676,6 @@ textarea {
 
   .last {
     font-family: 'Inter', sans-serif;
-    font-style: regular;
     font-size: 20px;
     height: 189px;
     font-weight: 400;
@@ -803,7 +835,6 @@ textarea {
 
   .touch {
     font-family: 'Inter', sans-serif;
-    font-style: bold;
     font-size: 30px;
     text-align: center;
     align-items: center;
