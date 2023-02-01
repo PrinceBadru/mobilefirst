@@ -676,7 +676,6 @@ textarea {
 
   .last {
     font-family: 'Inter', sans-serif;
-    font-style: regular;
     font-size: 20px;
     height: 189px;
     font-weight: 400;
@@ -836,7 +835,6 @@ textarea {
 
   .touch {
     font-family: 'Inter', sans-serif;
-    font-style: bold;
     font-size: 30px;
     text-align: center;
     align-items: center;
