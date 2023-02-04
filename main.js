@@ -130,3 +130,17 @@ form.addEventListener("submit", (e) => {
     messageBox.innerHTML = "Your email should be in lowercase*";
   }
 });
+
+// Local storage
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  compareAndAlert();
+});
+
+const formInputs = document.querySelectorAll('.form-data');
+
+formInputs.forEach((item) => {
+  item.addEventListener('keypress', () => {
+    saveToLocalStorage();
+  });
+});
