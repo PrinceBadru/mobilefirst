@@ -121,7 +121,7 @@
                 </section>
                 </section>
     
-                <section class="contact" id="contact">  
+                <section class="contact" id="contact"> 
             
                     <section class="form-section">
                     
@@ -130,26 +130,27 @@
                         </div>
                     
                         <div class="contact-form">
-                     <form action="https://formspree.io/f/mjvzwlqy" method="post">
+                     <form action="https://formspree.io/f/mjvzwlqy" id="form" method="post">
                        
-                        <ul class="contactmargin">
+                        <ul>
                             
                             <li >
-                                <label for="name" >
-                                    <input type="text" id="name"  name="user_name" placeholder="Full name" class="placeholdermargin"  maxlength="30" required>
+                                <label for="name">
+                                    <input type="text" id="name"  name="user_name" placeholder="Full name" maxlength="30" required>
                                 </label>
                             </li>
                             <li>
                                 <label for="mail">
-                                    <input type="email" id="mail" name="user_email" placeholder="Email address" class="placeholdermargin" required>
+                                    <input type="email" id="mail" name="user_email" placeholder="Email address" required>
                                 </label>
         
                             </li>
                             <li>
                                 <label for="msg">
-                                    <textarea name="user_message" id="msg" cols="30" rows="5" maxlength="500" placeholder="Enter text here" class="placeholdermargin" required></textarea>
+                                    <textarea name="user_message" id="msg" cols="30" rows="5" maxlength="500" placeholder="Enter text here" required></textarea>
                                 </label>
                             </li>
+                            <li><small class="error-message" id="errorMessage"></small></li>
                             <li class="button back-image">
                                 <button type="submit" class="btn">Get in touch</button>
                             </li>
@@ -161,9 +162,8 @@
                         </div>
                     </section>
     
-    
                 </section>
-    
+
                 <footer > 
                 <hr class="bottom-line">
                 <ul class ="socials">
