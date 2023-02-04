@@ -738,7 +738,8 @@ textarea {
   .about2 {
     text-align: center;
     font-size: 23px;
-    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg),
+    background-image:
+      url(./images/illustration-about\ me-1-desktop@2x.jpg),
       url(./images/illustration-about-me-2-desktop.png);
     background-repeat: no-repeat;
     background-position: top right, bottom left;
@@ -857,7 +858,8 @@ textarea {
 
   .contact {
     display: flex;
-    background-image: url(./images/illustration-1-contact-form-desktop.png),
+    background-image:
+      url(./images/illustration-1-contact-form-desktop.png),
       url(./images/contact\ form-illustratoin-3-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
