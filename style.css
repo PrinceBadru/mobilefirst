@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/inter');
+@import url("https://fonts.cdnfonts.com/css/inter");
 
 .first {
   display: flex;
@@ -29,7 +29,7 @@
   font-size: 40px;
   color: #172b4d;
   padding: 10px 15px 15px 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .third {
@@ -80,7 +80,7 @@
 .mobile-text {
   margin-top: 30px;
   font-size: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 30px;
   color: black;
   text-decoration: none;
@@ -104,7 +104,7 @@
   width: 100%;
   z-index: 100;
   background-color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .contactmargin {
@@ -123,6 +123,26 @@ ul {
   border-bottom: 4px solid #3a4a42;
   margin: 0;
   left: 37%;
+}
+
+.mobile-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-buttons .btn-secondary {
+  border: 1px solid #36b37e;
+  border-radius: 8px;
+  background: #36b37e;
+  color: white;
+  width: 120px;
+  padding: 5px;
+  text-decoration: none;
+  height: 27px;
+  display: flex;
+  margin-right: 5px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .full-section {
@@ -198,11 +218,11 @@ ul {
 .recent {
   text-align: center;
   font-size: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .image-placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 24px;
   line-height: 32px;
@@ -225,7 +245,7 @@ ul {
   font-size: 17px;
   border: none;
   border-radius: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .btn:hover {
@@ -244,7 +264,7 @@ ul {
   background-color: #ebf0ee;
   margin: 0 5px;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
 }
 
@@ -257,7 +277,7 @@ ul {
   text-align: center;
   font-size: 25px;
   margin: 5px 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .butt {
@@ -287,7 +307,7 @@ ul {
   background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
   background-repeat: no-repeat;
   background-position: top right;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .butt2 {
@@ -312,7 +332,7 @@ ul {
   height: 352px;
   width: 369px;
   background-color: #ebf0ee;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .language-icon {
@@ -324,7 +344,7 @@ ul {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .lang-text-list {
@@ -344,7 +364,7 @@ ul {
   background-color: #fff;
   color: #36b37e;
   font-size: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .get {
@@ -354,7 +374,7 @@ ul {
 }
 
 .last {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 20px;
   height: 189px;
@@ -364,7 +384,7 @@ ul {
 }
 
 .touch {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 40px;
   text-align: center;
@@ -455,6 +475,10 @@ textarea {
   background-color: #c1c7d0d7;
 }
 
+.display-centered {
+  display: none;
+}
+
 .card {
   position: fixed;
   top: 5%;
@@ -513,11 +537,6 @@ textarea {
   width: 20px;
 }
 
-.mobile-buttons {
-  display: flex;
-  justify-content: space-around;
-}
-
 .hamburger-left {
   align-items: flex-end;
   margin-left: 250px;
@@ -534,21 +553,6 @@ textarea {
   background: #36b37e;
   color: white;
   width: 110px;
-  padding: 5px;
-  text-decoration: none;
-  height: 27px;
-  display: flex;
-  margin-right: 5px;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.mobile-buttons .btn-secondary {
-  border: 1px solid #36b37e;
-  border-radius: 8px;
-  background: #36b37e;
-  color: white;
-  width: 120px;
   padding: 5px;
   text-decoration: none;
   height: 27px;
@@ -637,7 +641,7 @@ textarea {
     justify-content: center;
     gap: 50px;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .second-text {
@@ -662,7 +666,7 @@ textarea {
     display: flex;
     justify-content: center;
     font-size: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .lang-text-list {
@@ -675,7 +679,7 @@ textarea {
   }
 
   .last {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     height: 189px;
     font-weight: 400;
@@ -699,7 +703,7 @@ textarea {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
   }
 
@@ -713,17 +717,17 @@ textarea {
   }
 
   .project {
-    border: 1px solid #c1c7d0;
+    border: 1px solid green;
     margin: 0;
-    width: 369px;
+    width: 100%;
     padding: 0;
     border-radius: 8px;
-    height: 352px;
+    height: 474px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 
   .language-icon {
@@ -734,7 +738,8 @@ textarea {
   .about2 {
     text-align: center;
     font-size: 23px;
-    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg), url(./images/illustration-about-me-2-desktop.png);
+    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg),
+      url(./images/illustration-about-me-2-desktop.png);
     background-repeat: no-repeat;
     background-position: top right, bottom left;
     background-size: 150px;
@@ -796,9 +801,9 @@ textarea {
   }
 
   .work-section {
+    display: flex;
     width: 100vw;
     min-height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -818,7 +823,7 @@ textarea {
     background-color: #fff;
     color: #36b37e;
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     border-radius: 8px;
   }
 
@@ -834,7 +839,7 @@ textarea {
   }
 
   .touch {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 30px;
     text-align: center;
     align-items: center;
@@ -852,7 +857,8 @@ textarea {
 
   .contact {
     display: flex;
-    background-image: url(./images/illustration-1-contact-form-desktop.png), url(./images/contact\ form-illustratoin-3-desktop.png);
+    background-image: url(./images/illustration-1-contact-form-desktop.png),
+      url(./images/contact\ form-illustratoin-3-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
   }
@@ -880,5 +886,50 @@ textarea {
   .bottom-line {
     display: flex;
     color: #d0d9d4;
+  }
+}
+
+@media (min-width: 768px) {
+  .design-new {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .design-new .project {
+    display: flex;
+    width: 30%;
+    height: 474px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .design-new .image-placeholder {
+    height: 250px;
+  }
+
+  .mobile-buttons {
+    display: none;
+    justify-content: space-around;
+  }
+
+  .mobile-buttons .btn-secondary {
+    border: 1px solid #36b37e;
+    border-radius: 8px;
+    background: #36b37e;
+    color: white;
+    width: 120px;
+    padding: 5px;
+    text-decoration: none;
+    height: 27px;
+    display: flex;
+    margin-right: 5px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .display-centered {
+    display: flex;
   }
 }
