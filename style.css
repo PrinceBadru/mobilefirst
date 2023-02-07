@@ -251,7 +251,7 @@ ul {
 .two-columns h4 {
   width: 259px;
   height: 135px;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -276,7 +276,7 @@ ul {
   height: 20px;
   font-family: "Inter", sans-serif;
   font-size: 12px;
-  color: #172B4D;
+  color: #172b4d;
   border-radius: 4px;
 }
 
@@ -579,10 +579,9 @@ textarea {
 .card-tags li {
   background-color: #ebecf0;
   color: #344563;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
   font-size: 12px;
   margin-right: 8px;
   border-radius: 10px;
@@ -601,18 +600,13 @@ textarea {
 .card-header .close-button {
   width: 12px;
   height: 12px;
-  background: #EBECF0;
+  background: #ebecf0;
   margin-right: 25px;
-
-}
-
-.heading-child {
- 
 }
 
 .childs p {
   padding-left: 0.1px;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -695,11 +689,11 @@ textarea {
     margin-top: 25px;
     margin-right: 25px;
   }
-  
+
   .card-header .close-button {
     width: 40px;
     height: 40px;
-    background: #EBECF0;
+    background: #ebecf0;
   }
 
   .socials {
@@ -833,16 +827,14 @@ textarea {
   .two-columns h4 {
     font-size: 32px;
     width: 60%;
-    font-family: 'Inter';
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
     line-height: 44px;
-    width: 589px;
     height: 82px;
     padding-left: 20px;
     margin-top: 0.1px;
-  }  
+  }
 
   .form-description {
     width: 40%;
