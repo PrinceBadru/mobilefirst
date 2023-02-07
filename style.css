@@ -704,6 +704,11 @@ textarea {
     gap: 20px;
   }
 
+  .card-body img {
+    height: 60vh;
+    width: 100%;
+  }
+
   .lang-text {
     display: flex;
     justify-content: center;
@@ -832,7 +837,8 @@ textarea {
     line-height: 44px;
     height: 82px;
     padding-left: 20px;
-    margin-top: 0.1px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .form-description {
@@ -951,6 +957,11 @@ textarea {
     width: 100%;
     flex-wrap: wrap;
   }
+
+  .card-body img {
+    height: 60vh;
+    width: 100%;
+}
 
   .design-new .project {
     display: flex;
