@@ -513,7 +513,7 @@ textarea {
 }
 
 .card-body {
-  height: 80%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -705,6 +705,16 @@ textarea {
   .card-body img {
     height: 60vh;
     width: 100%;
+  }
+
+  .card-body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
   }
 
   .lang-text {
