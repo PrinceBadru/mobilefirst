@@ -685,9 +685,8 @@ textarea {
   .card-header {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 5px;
-    margin-top: 25px;
-    margin-right: 25px;
   }
 
   .card-header .close-button {
