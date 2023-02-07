@@ -248,6 +248,16 @@ ul {
   font-family: "Inter", sans-serif;
 }
 
+.two-columns h4 {
+  width: 259px;
+  height: 135px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .btn:hover {
   background-color: #36b37f;
   box-shadow: 0.1px 8px 16px;
@@ -262,10 +272,12 @@ ul {
   border: 1px solid #ebf0ee;
   padding: 5px;
   background-color: #ebf0ee;
-  margin: 0 5px;
+  margin: 0 8px;
   height: 20px;
   font-family: "Inter", sans-serif;
   font-size: 12px;
+  color: #172B4D;
+  border-radius: 4px;
 }
 
 .lang {
@@ -473,6 +485,8 @@ textarea {
   left: 0;
   right: 0;
   background-color: #c1c7d0d7;
+  width: 109vw;
+  height: 109vh;
 }
 
 .display-centered {
@@ -490,25 +504,24 @@ textarea {
   overflow: hidden;
 }
 
-.card-header {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 5px;
-}
-
-.card-header .close-button {
-  margin-right: 5px;
-  margin-top: 5px;
+.card-image {
+  position: absolute;
+  width: 872px;
+  height: 616px;
+  left: 24px;
+  top: 78px;
 }
 
 .card-body {
-  height: 90%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
   padding-top: 10px;
   padding-right: 10px;
+  overflow: hidden;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .card-body img {
@@ -523,14 +536,6 @@ textarea {
 
 .card-body .two-columns {
   flex-direction: row;
-}
-
-.two-columns h4 {
-  font-size: 32px;
-  width: 60%;
-  padding: 0;
-  margin: 0;
-  padding-left: 20px;
 }
 
 .card-body a img {
@@ -567,15 +572,19 @@ textarea {
   justify-content: flex-start;
   width: 70%;
   flex-wrap: wrap;
-  margin: 0 0 36px 20px;
+  margin: 0 0 20px;
   padding: 0;
 }
 
 .card-tags li {
   background-color: #ebecf0;
-  color: black;
-  font-size: 22px;
-  margin-right: 18px;
+  color: #344563;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  font-size: 12px;
+  margin-right: 8px;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -584,9 +593,31 @@ textarea {
   margin-top: 20px;
 }
 
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-header .close-button {
+  width: 12px;
+  height: 12px;
+  background: #EBECF0;
+  margin-right: 25px;
+
+}
+
+.heading-child {
+ 
+}
+
 .childs p {
-  padding-left: 20px;
-  font-size: 22px;
+  padding-left: 0.1px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
 }
 
 @media (min-width: 768px) {
@@ -651,6 +682,24 @@ textarea {
     justify-content: center;
     width: 50%;
     margin: 0 auto;
+  }
+
+  .card {
+    height: 1083px;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  
+  .card-header .close-button {
+    width: 40px;
+    height: 40px;
+    background: #EBECF0;
   }
 
   .socials {
@@ -780,6 +829,20 @@ textarea {
     background-repeat: no-repeat;
     background-position: bottom left;
   }
+
+  .two-columns h4 {
+    font-size: 32px;
+    width: 60%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    width: 589px;
+    height: 82px;
+    padding-left: 20px;
+    margin-top: 0.1px;
+  }  
 
   .form-description {
     width: 40%;
