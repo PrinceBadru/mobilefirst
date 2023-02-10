@@ -497,12 +497,11 @@ textarea {
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
-  width: ;
+  width: 100vw;
 }
 
 .card-image {
   position: absolute;
-  width: 872px;
   height: 616px;
   left: 24px;
   top: 78px;
@@ -706,13 +705,6 @@ textarea {
     border-radius: 5px;
     overflow: hidden;
     height: 1083px;
-  }
-  
-  .card-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 5px;
   }
 
   .card-header .close-button {
