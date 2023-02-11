@@ -193,7 +193,6 @@ if (getData != null) {
   msgElement.value = getData.message;
 }
 
-// Save Data TO Local Storage
 function saveToLocalStorage() {
   const formData = {
     name: nameElement.value,
@@ -203,6 +202,18 @@ function saveToLocalStorage() {
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 
+// add event listeners to each input field
+nameElement.addEventListener('change', saveToLocalStorage);
+emailElement.addEventListener('change', saveToLocalStorage);
+msgElement.addEventListener('change', saveToLocalStorage);
+
+// populate form fields with data from local storage, if available
+const formData = JSON.parse(localStorage.getItem('formData'));
+if (formData) {
+  nameElement.value = formData.name;
+  emailElement.value = formData.email;
+  msgElement.value = formData.message;
+}
 // form Validation
 function compareAndAlert() {
   if (emailElement.value === emailElement.value.toLowerCase()) {
