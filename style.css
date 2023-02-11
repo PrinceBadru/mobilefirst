@@ -1019,10 +1019,10 @@ textarea {
     display: flex;
     margin-right: 5px;
     justify-content: space-around;
-align-items: center;
+    align-items: center;
   }
 
   .display-centered {
     display: flex;
- }
+  }
 }
