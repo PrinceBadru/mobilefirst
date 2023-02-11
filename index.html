@@ -48,88 +48,17 @@
         </section>
                
                
-        
+        <h2 class ="recent" >My Recent Works</h2>
         <section class = "work-section">
-            <h2 class ="recent" >My Recent Works</h2>
             <hr class="line">
-           
-           <div class ="project-container">
-               <div class="design-1">
-               <article class="project">
-                   <div class ="image-placeholder"></div>
-                   <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                   <ul class ="lang">
-                       <li class="language">html</li>
-                       <li class="language">css</li>
-                       <li class="language">javascript</li>
-                       <li class="language">Ruby on rails</li>
-                   </ul>
-                   <div class="butt"><button class="btn" type="button"> See Project</button></div>
-               </article>
-               <article class="project">
-                   <div class ="image-placeholder"></div>
-                   <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                   <ul class ="lang">
-                       <li class="language">html</li>
-                       <li class="language">css</li>
-                       <li class="language">javascript</li>
-                       <li class="language">Ruby on rails</li>
-                   </ul>
-                   <div class="butt"><button class="btn" type="button"> See Project</button></div>
-               </article>
-               </div>
-               <div class="design-2">
-               <article class="project">
-                   <div class ="image-placeholder"></div>
-                   <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                   <ul class ="lang">
-                       <li class="language">html</li>
-                       <li class="language">css</li>
-                       <li class="language">javascript</li>
-                       <li class="language">Ruby on rails</li>
-                   </ul>
-                   <div class="butt"><button class="btn" type="button"> See Project</button></div>
-               </article>
-               
-               <article class="project">
-                   <div class ="image-placeholder"></div>
-                   <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                   <ul class ="lang">
-                       <li class="language">html</li>
-                       <li class="language">css</li>
-                       <li class="language">javascript</li>
-                       <li class="language">Ruby on rails</li>
-                   </ul>
-                   <div class="butt"><button class="btn" type="button"> See Project</button></div>
-               </article> 
-           </div>
-               <div class="design-3">
-               <article class="project">
-                   <div class ="image-placeholder"></div>
-                   <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                   <ul class ="lang">
-                       <li class="language">html</li>
-                       <li class="language">css</li>
-                       <li class="language">javascript</li>
-                       <li class="language">Ruby on rails</li>
-                   </ul>
-                   <div class="butt"><button class="btn" type="button"> See Project</button></div>
-               </article>
-                <article class="project">
-                   <div class ="image-placeholder"></div>
-                   <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
-                   <ul class ="lang">
-                       <li class="language">html</li>
-                       <li class="language">css</li>
-                       <li class="language">javascript</li>
-                       <li class="language">Ruby on rails</li>
-                   </ul>
-                   <div class="butt"><button class="btn" type="button"> See Project</button></div>
-               </article>
-               </div>
-               </div>
-           </div>
-           </section>
+            <div class ="project-container">
+                
+                <div class ="project-container">
+                    <div class ="project-container">
+                        <div class="design-new" id="designNew">
+                        
+                        </div>
+        </section>
     
                 <section class="aboutme-background" id="about">
                 <section class="aboutme section">
@@ -207,18 +136,18 @@
                             
                             <li >
                                 <label for="name" >
-                                    <input type="text" id="name"  name="user_name" placeholder="Full name" class="placeholdermargin"  maxlength="30" required>
+                                    <input type="text" id="name" class="form-data" name="user_name" placeholder="Full name" class="placeholdermargin"  maxlength="30" required>
                                 </label>
                             </li>
                             <li>
                                 <label for="mail">
-                                    <input type="email" id="mail" name="user_email" placeholder="Email address" class="placeholdermargin" required>
+                                    <input type="email" id="mail" class="form-data" name="user_email" placeholder="Email address" class="placeholdermargin" required>
                                 </label>
         
                             </li>
                             <li>
                                 <label for="msg">
-                                    <textarea name="user_message" id="msg" cols="30" rows="5" maxlength="500" placeholder="Enter text here" class="placeholdermargin" required></textarea>
+                                    <textarea name="user_message" id="msg" class="form-data" cols="30" rows="5" maxlength="500" placeholder="Enter text here" class="placeholdermargin" required></textarea>
                                 </label>
                             </li>
                             <li class="button back-image">
@@ -247,6 +176,11 @@
               
             </footer>
         
-        <script src="/main.js"></script>
+            <section class="popup hide" id="popup">
+                <div id="projectsContainer"></div>  
+             </section>
+                
+
+        <script src="./main.js"></script>
 </body>
 </html>

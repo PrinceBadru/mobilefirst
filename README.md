@@ -78,7 +78,7 @@ the headline section (right after the header):
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]( https://princebadru.github.io/mobilefirst/)
+- [Live Demo Link](https://princebadru.github.io/mobilefirst/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,6 +101,11 @@ Example command:
  gem install rails
 ```
  -->
+ linters
+ code editor
+ liveserver
+ images
+
 
 ### Setup
 
@@ -114,7 +119,7 @@ Example commands:
   git clone git@github.com:myaccount/my-project.git
 ```
 --->
-
+git@github.com:PrinceBadru/mobilefirst.git
 ### Install
 
 Install this project with:
@@ -127,7 +132,8 @@ Example command:
   gem install
 ```
 --->
-
+ cd my-project
+  gem install
 ### Usage
 
 To run the project, execute the following command:
@@ -139,6 +145,9 @@ Example command:
   rails server
 ```
 --->
+```sh
+  rails server
+```
 
 ### Run tests
 
@@ -151,7 +160,9 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
-
+```sh
+  bin/rails test test/models/article_test.rb
+```
 ### Deployment
 
 You can deploy this project using:
@@ -163,7 +174,7 @@ Example:
 
 ```
  -->
-
+Github pages.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -224,27 +235,11 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
