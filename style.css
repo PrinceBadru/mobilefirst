@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/inter');
+@import url("https://fonts.cdnfonts.com/css/inter");
 
 .first {
   display: flex;
@@ -29,7 +29,7 @@
   font-size: 40px;
   color: #172b4d;
   padding: 10px 15px 15px 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .third {
@@ -80,7 +80,7 @@
 .mobile-text {
   margin-top: 30px;
   font-size: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 30px;
   color: black;
   text-decoration: none;
@@ -104,7 +104,7 @@
   width: 100%;
   z-index: 100;
   background-color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .contactmargin {
@@ -123,6 +123,26 @@ ul {
   border-bottom: 4px solid #3a4a42;
   margin: 0;
   left: 37%;
+}
+
+.mobile-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-buttons .btn-secondary {
+  border: 1px solid #36b37e;
+  border-radius: 8px;
+  background: #36b37e;
+  color: white;
+  width: 120px;
+  padding: 5px;
+  text-decoration: none;
+  height: 27px;
+  display: flex;
+  margin-right: 5px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .full-section {
@@ -150,8 +170,6 @@ ul {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-right: 38px;
-  margin-top: 62px;
 }
 
 .mobile-menu li {
@@ -198,11 +216,11 @@ ul {
 .recent {
   text-align: center;
   font-size: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .image-placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 24px;
   line-height: 32px;
@@ -225,7 +243,18 @@ ul {
   font-size: 17px;
   border: none;
   border-radius: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.two-columns h4 {
+  width: 259px;
+  height: 135px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
 }
 
 .btn:hover {
@@ -242,10 +271,12 @@ ul {
   border: 1px solid #ebf0ee;
   padding: 5px;
   background-color: #ebf0ee;
-  margin: 0 5px;
+  margin: 0 8px;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
+  color: #172b4d;
+  border-radius: 4px;
 }
 
 .lang {
@@ -257,7 +288,7 @@ ul {
   text-align: center;
   font-size: 25px;
   margin: 5px 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .butt {
@@ -287,7 +318,7 @@ ul {
   background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
   background-repeat: no-repeat;
   background-position: top right;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .butt2 {
@@ -312,7 +343,7 @@ ul {
   height: 352px;
   width: 369px;
   background-color: #ebf0ee;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .language-icon {
@@ -324,7 +355,7 @@ ul {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .lang-text-list {
@@ -344,7 +375,7 @@ ul {
   background-color: #fff;
   color: #36b37e;
   font-size: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .get {
@@ -354,7 +385,7 @@ ul {
 }
 
 .last {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 20px;
   height: 189px;
@@ -364,7 +395,7 @@ ul {
 }
 
 .touch {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 40px;
   text-align: center;
@@ -453,32 +484,31 @@ textarea {
   left: 0;
   right: 0;
   background-color: #c1c7d0d7;
+  width: 109vw;
+  height: 109vh;
+}
+
+.display-centered {
+  display: none;
 }
 
 .card {
   position: fixed;
-  top: 5%;
-  bottom: 5%;
-  left: 15%;
-  right: 15%;
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
+  width: 100vw;
 }
 
-.card-header {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 5px;
-}
-
-.card-header .close-button {
-  margin-right: 5px;
-  margin-top: 5px;
+.card-image {
+  position: absolute;
+  height: 616px;
+  left: 24px;
+  top: 78px;
 }
 
 .card-body {
-  height: 90%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -493,7 +523,6 @@ textarea {
 
 .two-columns {
   display: flex;
-  padding-top: 30px;
   justify-content: space-between;
 }
 
@@ -501,21 +530,8 @@ textarea {
   flex-direction: row;
 }
 
-.two-columns h4 {
-  font-size: 32px;
-  width: 60%;
-  padding: 0;
-  margin: 0;
-  padding-left: 20px;
-}
-
 .card-body a img {
   width: 20px;
-}
-
-.mobile-buttons {
-  display: flex;
-  justify-content: space-around;
 }
 
 .hamburger-left {
@@ -543,35 +559,23 @@ textarea {
   align-items: center;
 }
 
-.mobile-buttons .btn-secondary {
-  border: 1px solid #36b37e;
-  border-radius: 8px;
-  background: #36b37e;
-  color: white;
-  width: 120px;
-  padding: 5px;
-  text-decoration: none;
-  height: 27px;
-  display: flex;
-  margin-right: 5px;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .asscories .card-tags {
   display: flex;
   justify-content: flex-start;
   width: 70%;
   flex-wrap: wrap;
-  margin: 0 0 36px 20px;
+  margin: 0 0 20px;
   padding: 0;
 }
 
 .card-tags li {
   background-color: #ebecf0;
-  color: black;
-  font-size: 22px;
-  margin-right: 18px;
+  color: #344563;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 8px;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -580,9 +584,28 @@ textarea {
   margin-top: 20px;
 }
 
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+.card-header .close-button {
+  width: 22px;
+  height: 18px;
+  background: #ebecf0;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
 .childs p {
-  padding-left: 20px;
-  font-size: 22px;
+  padding-left: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 @media (min-width: 768px) {
@@ -614,6 +637,16 @@ textarea {
     align-items: center;
   }
 
+  .childs p {
+    padding-left: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
   .third {
     font-style: normal;
     font-weight: 400;
@@ -637,7 +670,20 @@ textarea {
     justify-content: center;
     gap: 50px;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .close-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 38px;
+    margin-top: 62px;
   }
 
   .second-text {
@@ -649,6 +695,24 @@ textarea {
     margin: 0 auto;
   }
 
+  .card {
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+    left: 15%;
+    right: 15%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 1083px;
+  }
+
+  .card-header .close-button {
+    width: 40px;
+    height: 40px;
+    background: #ebecf0;
+  }
+
   .socials {
     display: flex;
     justify-content: center;
@@ -658,11 +722,26 @@ textarea {
     gap: 20px;
   }
 
+  .card-body img {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .card-body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+  }
+
   .lang-text {
     display: flex;
     justify-content: center;
     font-size: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .lang-text-list {
@@ -675,7 +754,7 @@ textarea {
   }
 
   .last {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     height: 189px;
     font-weight: 400;
@@ -699,7 +778,7 @@ textarea {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
   }
 
@@ -713,17 +792,17 @@ textarea {
   }
 
   .project {
-    border: 1px solid #c1c7d0;
+    border: 1px solid green;
     margin: 0;
-    width: 369px;
+    width: 100%;
     padding: 0;
     border-radius: 8px;
-    height: 352px;
+    height: 474px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 
   .language-icon {
@@ -734,7 +813,9 @@ textarea {
   .about2 {
     text-align: center;
     font-size: 23px;
-    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg), url(./images/illustration-about-me-2-desktop.png);
+    background-image:
+      url(./images/illustration-about\ me-1-desktop@2x.jpg),
+      url(./images/illustration-about-me-2-desktop.png);
     background-repeat: no-repeat;
     background-position: top right, bottom left;
     background-size: 150px;
@@ -775,6 +856,19 @@ textarea {
     background-position: bottom left;
   }
 
+  .two-columns h4 {
+    font-size: 32px;
+    width: 60%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    height: 82px;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .form-description {
     width: 40%;
   }
@@ -796,9 +890,9 @@ textarea {
   }
 
   .work-section {
+    display: flex;
     width: 100vw;
     min-height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -818,7 +912,7 @@ textarea {
     background-color: #fff;
     color: #36b37e;
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     border-radius: 8px;
   }
 
@@ -834,7 +928,7 @@ textarea {
   }
 
   .touch {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 30px;
     text-align: center;
     align-items: center;
@@ -852,7 +946,9 @@ textarea {
 
   .contact {
     display: flex;
-    background-image: url(./images/illustration-1-contact-form-desktop.png), url(./images/contact\ form-illustratoin-3-desktop.png);
+    background-image:
+      url(./images/illustration-1-contact-form-desktop.png),
+      url(./images/contact\ form-illustratoin-3-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
   }
@@ -880,5 +976,55 @@ textarea {
   .bottom-line {
     display: flex;
     color: #d0d9d4;
+  }
+}
+
+@media (min-width: 768px) {
+  .design-new {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card-body img {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .design-new .project {
+    display: flex;
+    width: 30%;
+    height: 474px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .design-new .image-placeholder {
+    height: 250px;
+  }
+
+  .mobile-buttons {
+    display: none;
+    justify-content: space-around;
+  }
+
+  .mobile-buttons .btn-secondary {
+    border: 1px solid #36b37e;
+    border-radius: 8px;
+    background: #36b37e;
+    color: white;
+    width: 120px;
+    padding: 5px;
+    text-decoration: none;
+    height: 27px;
+    display: flex;
+    margin-right: 5px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .display-centered {
+    display: flex;
   }
 }
