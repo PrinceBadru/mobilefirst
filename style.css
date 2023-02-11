@@ -170,8 +170,6 @@ ul {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-right: 38px;
-  margin-top: 62px;
 }
 
 .mobile-menu li {
@@ -248,6 +246,17 @@ ul {
   font-family: "Inter", sans-serif;
 }
 
+.two-columns h4 {
+  width: 259px;
+  height: 135px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+}
+
 .btn:hover {
   background-color: #36b37f;
   box-shadow: 0.1px 8px 16px;
@@ -262,10 +271,12 @@ ul {
   border: 1px solid #ebf0ee;
   padding: 5px;
   background-color: #ebf0ee;
-  margin: 0 5px;
+  margin: 0 8px;
   height: 20px;
   font-family: "Inter", sans-serif;
   font-size: 12px;
+  color: #172b4d;
+  border-radius: 4px;
 }
 
 .lang {
@@ -433,6 +444,7 @@ textarea {
   padding: 0%;
   width: 305px;
   height: 114px;
+  margin: 15px;
   margin-bottom: 24px;
 }
 
@@ -472,6 +484,8 @@ textarea {
   left: 0;
   right: 0;
   background-color: #c1c7d0d7;
+  width: 109vw;
+  height: 109vh;
 }
 
 .display-centered {
@@ -480,28 +494,21 @@ textarea {
 
 .card {
   position: fixed;
-  top: 5%;
-  bottom: 5%;
-  left: 15%;
-  right: 15%;
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
+  width: 100vw;
 }
 
-.card-header {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 5px;
-}
-
-.card-header .close-button {
-  margin-right: 5px;
-  margin-top: 5px;
+.card-image {
+  position: absolute;
+  height: 616px;
+  left: 24px;
+  top: 78px;
 }
 
 .card-body {
-  height: 90%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -516,20 +523,11 @@ textarea {
 
 .two-columns {
   display: flex;
-  padding-top: 30px;
   justify-content: space-between;
 }
 
 .card-body .two-columns {
   flex-direction: row;
-}
-
-.two-columns h4 {
-  font-size: 32px;
-  width: 60%;
-  padding: 0;
-  margin: 0;
-  padding-left: 20px;
 }
 
 .card-body a img {
@@ -566,15 +564,18 @@ textarea {
   justify-content: flex-start;
   width: 70%;
   flex-wrap: wrap;
-  margin: 0 0 36px 20px;
+  margin: 0 0 20px;
   padding: 0;
 }
 
 .card-tags li {
   background-color: #ebecf0;
-  color: black;
-  font-size: 22px;
-  margin-right: 18px;
+  color: #344563;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 8px;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -583,9 +584,28 @@ textarea {
   margin-top: 20px;
 }
 
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+.card-header .close-button {
+  width: 22px;
+  height: 18px;
+  background: #ebecf0;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
 .childs p {
-  padding-left: 20px;
-  font-size: 22px;
+  padding-left: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 @media (min-width: 768px) {
@@ -617,6 +637,16 @@ textarea {
     align-items: center;
   }
 
+  .childs p {
+    padding-left: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
   .third {
     font-style: normal;
     font-weight: 400;
@@ -643,6 +673,19 @@ textarea {
     font-family: "Inter", sans-serif;
   }
 
+  .card-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .close-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 38px;
+    margin-top: 62px;
+  }
+
   .second-text {
     padding: 10px 0;
     font-size: 20px;
@@ -652,6 +695,24 @@ textarea {
     margin: 0 auto;
   }
 
+  .card {
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+    left: 15%;
+    right: 15%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 1083px;
+  }
+
+  .card-header .close-button {
+    width: 40px;
+    height: 40px;
+    background: #ebecf0;
+  }
+
   .socials {
     display: flex;
     justify-content: center;
@@ -659,6 +720,21 @@ textarea {
     align-items: flex-end;
     list-style: none;
     gap: 20px;
+  }
+
+  .card-body img {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .card-body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
   }
 
   .lang-text {
@@ -737,8 +813,7 @@ textarea {
   .about2 {
     text-align: center;
     font-size: 23px;
-    background-image:
-      url(./images/illustration-about\ me-1-desktop@2x.jpg),
+    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg),
       url(./images/illustration-about-me-2-desktop.png);
     background-repeat: no-repeat;
     background-position: top right, bottom left;
@@ -778,6 +853,19 @@ textarea {
     background-image: url(./images/illustration-2-contact-form-desktop@2x.png);
     background-repeat: no-repeat;
     background-position: bottom left;
+  }
+
+  .two-columns h4 {
+    font-size: 32px;
+    width: 60%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    height: 82px;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .form-description {
@@ -857,8 +945,7 @@ textarea {
 
   .contact {
     display: flex;
-    background-image:
-      url(./images/illustration-1-contact-form-desktop.png),
+    background-image: url(./images/illustration-1-contact-form-desktop.png),
       url(./images/contact\ form-illustratoin-3-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
@@ -897,6 +984,11 @@ textarea {
     flex-wrap: wrap;
   }
 
+  .card-body img {
+    height: 60vh;
+    width: 100%;
+  }
+
   .design-new .project {
     display: flex;
     width: 30%;
@@ -927,10 +1019,10 @@ textarea {
     display: flex;
     margin-right: 5px;
     justify-content: space-around;
-    align-items: center;
+align-items: center;
   }
 
   .display-centered {
     display: flex;
-  }
+ }
 }
